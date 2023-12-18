@@ -14,7 +14,9 @@ export const Quiz = () => {
     const oldScore = window.localStorage.getItem("score") || "0";
     const lastQuestion = window.localStorage.getItem("question") || "0";
     setScore(parseInt(oldScore));
-    setQuestion(parseInt(lastQuestion));
+    if (lastQuestion === `${questions.length}`) {
+      setQuestion(parseInt(lastQuestion));
+    }
     setIsLoading(false);
   }, []);
 

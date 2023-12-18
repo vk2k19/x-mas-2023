@@ -1,4 +1,4 @@
-import Tabs from "../app/fun-zone/Tabs/Tabs";
+import Tabs from "./fun-zone/Tabs/Tabs";
 
 export default function Home() {
   return (

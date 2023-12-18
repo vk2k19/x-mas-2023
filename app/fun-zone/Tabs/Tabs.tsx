@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Quiz } from "../Quiz/Quiz";
 import classNames from "classnames";
 
-export default function Tabs() {
+const Tabs = () => {
   const [selectedTab, setSelectedTab] = useState(2);
 
   return (
@@ -63,4 +63,6 @@ export default function Tabs() {
       </section>
     </main>
   );
-}
+};
+
+export default Tabs;

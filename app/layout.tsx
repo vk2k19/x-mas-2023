@@ -4,6 +4,7 @@ import "./globals.css";
 import classNames from "classnames";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import BgAudio from "./audio";
 config.autoAddCss = false;
 
 const rye = Rye({ subsets: ["latin"], weight: "400" });
@@ -26,18 +27,20 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           "max-w-3xl min-h-screen mx-auto flex flex-col gap-8"
         )}
       >
-        <header>
+        <header className="md:flex item-center justify-center pt-8">
           <h1
             className={classNames(
               rye.className,
-              "text-center text-5xl md:text-6xl pt-8"
+              "text-center text-5xl md:text-6xl"
             )}
           >
+            <BgAudio />
             Merry Christmas!
           </h1>
         </header>
+        <div className="text-right"></div>
         {children}
-        <footer>
+        <footer className="flex items-center justify-center">
           <p
             className={classNames(
               rye.className,

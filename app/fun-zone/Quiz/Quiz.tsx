@@ -21,7 +21,7 @@ export const Quiz = () => {
   return (
     <section className={"relative overflow-hidden w-full transition-all"}>
       <Image
-        src="/x-mas-2023/borders/flowers.gif"
+        src="/borders/flowers.gif"
         alt=""
         className="object-contain w-full hidden md:block"
         width="643"

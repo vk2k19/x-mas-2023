@@ -10,13 +10,13 @@ const maxPoints = questions.reduce((acc, q) => {
 }, 0);
 
 const getText = (score: number) => {
-  if (score >= 60) {
+  if (score >= maxPoints * 0.75) {
     return "very nice";
   }
-  if (score >= 40) {
+  if (score >= maxPoints * 0.5) {
     return "nice";
   }
-  if (score >= 20) {
+  if (score >= maxPoints * 0.25) {
     return "naughty";
   }
   return "very naughty";

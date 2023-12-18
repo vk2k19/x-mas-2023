@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  faMusic,
-  faPauseCircle,
-  faPlayCircle,
-  faSlash,
-} from "@fortawesome/free-solid-svg-icons";
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import { useEffect, useRef, useState } from "react";
@@ -19,9 +14,9 @@ const BgAudio = () => {
       if (audioBox.current) {
         console.log("elem", audioBox.current);
         if (!paused) {
-          audioBox.current.play();
+          (audioBox.current as any).play();
         } else {
-          audioBox.current.pause();
+          (audioBox.current as any).pause();
         }
       }
     } catch (e) {

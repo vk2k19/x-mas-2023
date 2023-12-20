@@ -27,7 +27,7 @@ export const questions = [{
         score: -5
     }, {
         id: 3,
-        label: 'Not just mine, other\'s too 😛',
+        label: 'Not just mine, other\'s too 🤫',
         score: -10
     }]
 }, {
@@ -63,7 +63,7 @@ export const questions = [{
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: 0
     }, {
         id: 3,
@@ -83,7 +83,7 @@ export const questions = [{
         score: 20
     }, {
         id: 9,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 😰',
         score: 5
     }, {
         id: 10,
@@ -103,7 +103,7 @@ export const questions = [{
         score: 0
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: -5
     }, {
         id: 3,
@@ -119,11 +119,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🤩',
         score: 10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 😰',
         score: 0
     }, {
         id: 3,
@@ -135,19 +135,19 @@ export const questions = [{
     label: 'How many times have you laughed at a joke you didn\'t understand, just to fit in?',
     answers: [{
         id: 0,
-        label: 'A few days',
+        label: 'A few',
         score: 5
     }, {
         id: 1,
-        label: 'Some Days',
+        label: 'Some',
         score: 0
     }, {
         id: 2,
-        label: 'Most of the days',
+        label: 'Many',
         score: -5
     }, {
         id: 3,
-        label: 'Not just others, mine\'s too 😛',
+        label: 'Never 🤔',
         score: -10
     }]
 }, {
@@ -159,11 +159,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🤩',
         score: 10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: 0
     }, {
         id: 3,
@@ -179,11 +179,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 😰',
         score: 0
     }, {
         id: 3,
@@ -199,11 +199,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: 0
     }, {
         id: 3,
@@ -219,11 +219,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 😰',
         score: 0
     }, {
         id: 3,
@@ -239,11 +239,11 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: 0
     }, {
         id: 3,
@@ -259,11 +259,11 @@ export const questions = [{
         score: 0
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 😰',
         score: 5
     }, {
         id: 3,
@@ -279,11 +279,11 @@ export const questions = [{
         score: 0
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: -10
     }, {
         id: 2,
-        label: 'Don\'t Know',
+        label: 'Don\'t Know 🤔',
         score: -5
     }, {
         id: 3,
@@ -299,15 +299,15 @@ export const questions = [{
         score: 5
     }, {
         id: 1,
-        label: 'Too Many',
+        label: 'Too Many 🫢',
         score: 10
     }, {
         id: 2,
-        label: 'Don\'t remember',
+        label: 'Don\'t remember 😰',
         score: 0
     }, {
         id: 3,
-        label: 'Never, I don\'t laugh in a theater',
+        label: 'Never, I don\'t laugh in a theater 🤫',
         score: -5
     }]
 }, {
@@ -327,7 +327,7 @@ export const questions = [{
         score: -5
     }, {
         id: 3,
-        label: 'Never, I know songs',
+        label: 'Never, I know songs 🤫',
         score: -10
     }]
 }]

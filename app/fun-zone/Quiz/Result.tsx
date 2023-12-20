@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+
 import { questions } from "./data";
-import Image from "next/image";
 import { Rye } from "next/font/google";
 import classNames from "classnames";
 
@@ -38,7 +37,7 @@ export const Result = ({ score }: { score: number }) => (
       {getText(score)}
     </h2>
     <p className="text-right pt-6 font-bold md:pt-10">- Elves</p>
-    <p className="text-xs py-6 italic text-black md:pt-10">
+    <p className="text-xs py-6 italic text-black md:pt-10 dark:text-zinc-400 dark:md:text-black">
       *Got: <b>{score}</b> out of <strong>{maxPoints}</strong>
     </p>
   </div>

@@ -7,7 +7,7 @@ const Tabs = () => {
   const [selectedTab, setSelectedTab] = useState(2);
 
   return (
-    <main className="flex flex-col flex-1 items-start justify-start md:px-8 w-full">
+    <div className="flex flex-col flex-1 items-start justify-start md:px-8 w-full dark:md:text-rose-600">
       <ul className="justify-start items-start w-full gap-1 hidden md:flex">
         <li>
           <button
@@ -40,7 +40,7 @@ const Tabs = () => {
           {
             "md:hidden": selectedTab !== 1,
           },
-          "from-rose-50 bg-gradient-to-b from-0 via-white to-white via-[50px] pt-12 w-full block"
+          "md:from-rose-50 md:bg-gradient-to-b md:from-0 md:via-white md:to-white md:via-[50px] md:pt-12 w-full  block"
         )}
       >
         <Quiz />
@@ -51,7 +51,7 @@ const Tabs = () => {
           {
             "md:hidden": selectedTab !== 2,
           },
-          "from-rose-50 bg-gradient-to-b from-0 via-white to-white via-[50px] pt-12 w-full hidden md:block"
+          "md:from-rose-50 md:bg-gradient-to-b md:from-0 md:via-white md:to-white md:via-[50px] md:pt-12 w-full hidden md:block"
         )}
       >
         <iframe
@@ -61,7 +61,7 @@ const Tabs = () => {
           src="https://crosswordlabs.com/embed/merry-x-mas-8"
         ></iframe>
       </section>
-    </main>
+    </div>
   );
 };
 

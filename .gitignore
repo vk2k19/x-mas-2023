@@ -9,3 +9,10 @@ dist
 
 # lock files
 yarn.lock
+
+# temp files
+*.log
+*.tmp
+.DS_Store
+.vscode
+.idea

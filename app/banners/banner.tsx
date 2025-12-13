@@ -1,12 +1,12 @@
-import Image from "next/image";
-import { Rye } from "next/font/google";
-import classNames from "classnames";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowUpRightFromSquare,
   faCircleCheck,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import classNames from "classnames";
+import { Rye } from "next/font/google";
+import Image from "next/image";
 
 const rye = Rye({ subsets: ["latin"], weight: "400" });
 
@@ -28,7 +28,7 @@ const Banner = () => (
               "text-5xl text-white drop-shadow-[0_1px_1px_#b31312]"
             )}
           >
-            Here's Santa's little surprise from North pole
+            Here&apos;s Santa&apos;s little surprise from North pole
           </h1>
         </div>
         <div className="flex flex-col z-10 px-4 pt-24 w-1/3 gap-8 h-full">
@@ -57,4 +57,3 @@ const Banner = () => (
 );
 
 export default Banner;
-
